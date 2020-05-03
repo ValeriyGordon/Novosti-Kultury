@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                  
+        <title>Новости культуры</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo">Новости культуры</div>
+                <nav  class="main-navigation">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Обзоры</a></li>
+                        <li><a href="#">Музыка</a></li>
+                        <li><a href="#">Архитектура</a></li>
+                        <li><a href="#">Кино</a></li>
+                        <li><a href="#">Театр</a></li>
+                        <li><a href="#">Литература</a></li>
+                        <li><a href="#">Религия</a></li>
+                        <li><a href="#">Живопись</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       <main>
+            <section class="description">
+                <div class="container">
+                    <div class="description-1">
+                        <div class="icon"></div>
+                        <h1 class="description-2">Подводный отель</h1>
+                        <p class="description-3">Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов способен воплотить в жизнь 
+                        этот мегаполис, построенный на нефти и за счет нефти
+                        </p>
+                    </div>
+                </div>
+            </section>
+             <section class="reviews">
+                 <div class="container">
+                    <h2 class="reviews-1">Обзоры</h2>
+                    <div class="items">
+                        <a href="#" class="item">
+                            <img class="img" src="img/montparnasse.jpg" alt="картина Турецкая семья
+                            Жюль Паскин (Мордехай Пинкас)" title="Турецкая семья Жюль Паскин (Мордехай Пинкас)">
+                        <h3 class="reviews-title">«Шальные годы» Монпарнаса</h3>
+                        <p class="text">В Музее изобразительных искусств имени Пушкина с 29 сентября 
+                        по 29 ноября проходит выставка «Шальные годы Монпарнаса»
+                        </p></a>
+                        <a href="#" class="item">
+                            <img class="img" src="img/anatomy.png" alt="черно-белое фото" title="">
+                        <h3 class="reviews-title">Анатомия за 30 секунд</h3>
+                        <p class="text">Сейчас, когда мир открыт нараспашку для человека 
+                            и его познавательных изысканий, интерес к научно‑популярной литературе заметно вырос
+                        </p></a>
+                        <a href="#" class="item">
+                            <img class="img" src="img/cranks and nerds.jpg" alt="кадр из спектакля" title="">
+                        <h3 class="reviews-title">Сферические чудаки</h3>
+                        <p class="text">Корреспондентам «Культурного обозревателя» 
+                            посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды» 
+                        </p></a>
+                    </div>
+                </div>
+            </section>
+            <section class="season-tickets">
+                <div class="container">
+                    <div class="season-tickets-offers">
+                        <h2 class="offers-heading">АБОНЕМЕНТЫ В ТЕАТР</h2>
+                        <div class="offer">
+                            <h3 class="offer-1">Скидка 50% на весь сезон 2020</h3>
+                            <p class="offer-2">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
+                        </div>
+                        <div class="offer">
+                            <h3 class="offer-1">Места у сцены</h3>
+                            <p class="offer-2">Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
+                        </div>
+                        <div class="offer">
+                            <h3 class="offer-1">Автограф-сессия актёров</h3>
+                            <p class="offer-2">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
+                        </div>
+                        <div class="shadow">
+                            <dialog>
+                                <p>Доброго времени суток</p>
+                                <button id="close" class="close">×</button>
+                            </dialog>
+                            <div id="show" class="btn"><a>Смотреть</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-logo">Новости культуры</div>
+                <nav class="footer-navigation">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Обзоры</a></li>
+                        <li><a href="#">Музыка</a></li>
+                        <li><a href="#">Архитектура</a></li>
+                        <li><a href="#">Кино</a></li>
+                        <li><a href="#">Театр</a></li>
+                        <li><a href="#">Литература</a></li>
+                        <li><a href="#">Религия</a></li>
+                        <li><a href="#">Живопись</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-social">  
+                    <a class="instagram" href="#"></a>
+                    <a class="facebook" href="#"></a>
+                    <a class="twitter" href="#"></a>  
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type = text/javascript>
+var dialog = document.querySelector('dialog');
+document.querySelector('#show').onclick = function() {
+  dialog.showModal();
+};
+document.querySelector('#close').onclick = function() {
+  dialog.close();
+};
+</script>
+</html>

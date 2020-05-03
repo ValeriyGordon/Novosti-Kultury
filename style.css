@@ -1,0 +1,380 @@
+body {
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+}
+
+.header {
+    min-height: 218px;
+    padding: 60px 0 40px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;  
+    line-height: 47px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-navigation ul, .footer-navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation a, .footer-navigation a {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color:#FF7931;
+}
+
+a:active {
+    color: rgb(59, 59, 59);
+}
+
+.icon {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 650px;
+    top: 264px;
+    background-image: url(img/icon.svg);
+}
+
+.description {
+    min-height: 464px;
+    padding: 45px 0 46px;
+    background-color: rgb(96, 255, 255);
+    background-image: url(img/Hotel-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.description-1 {
+    margin-top: 88px;
+}
+
+.description-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 134px;
+    margin: 0;
+}
+
+.description-3 {
+    width: 456px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+
+.reviews {
+    min-height: 463px;  
+    padding: 44px 0 50px;
+}
+
+.reviews-1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0;
+
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item {
+    max-width: 370px;
+    color: #000;
+    text-decoration: none;
+}
+
+.img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+a .reviews-title:hover {
+    color:#FF7931;
+}
+
+a .reviews-title:active {
+    color: rgb(59, 59, 59);
+}
+
+.reviews-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    padding: 15px 0 10px;
+    color: #000000;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    color: #000000;
+}
+
+.season-tickets {
+    min-height: 556px;
+    background-color: #F7F7F7;
+}
+
+.season-tickets-offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/circle.png) no-repeat 50% 50%;
+    padding: 30px 0 35px;
+}
+
+.offers-heading {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 35px;
+
+    margin: 0;
+}
+
+.offer {
+    width: 370px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.offer-1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    
+    margin: 0;
+}
+
+.offer-2 {
+    margin: 0;
+}
+
+.offer:nth-child(2)::after, .offer:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 37%;
+    bottom: -30px;
+}
+
+.btn {
+    position: relative;
+    background: #FF7931;
+}
+
+.btn a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    padding: 17px 60px 15px 30px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 29px;
+    width: 24px;
+    height: 25px;
+    background: url(img/Arrow\ forward.svg) no-repeat 50% 50%;
+}
+
+.footer {
+    padding: 25px 0 45px;
+    margin-top: 50px;
+    background: #575757;
+}
+
+.footer-logo {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;  
+    line-height: 47px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-navigation {
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+
+.footer-navigation a {
+    color: #FFFFFF;
+}
+
+.footer-navigation a:hover {
+    color: #FF7931;
+}
+
+.footer-navigation a:active {
+    color: rgb(59, 59, 59);
+}
+
+.footer-social {
+    padding-top: 42px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    background-color: #fff;
+}
+
+.footer-social a + a {
+    margin-left: 14px;
+}
+
+.instagram {
+    background: url(img/instagram.svg) no-repeat 50% 50%;
+}
+
+.instagram:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.facebook {
+    background: url(img/facebook.svg) no-repeat 50% 50%;
+}
+
+.facebook:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.twitter {
+    background: url(img/twitter.svg) no-repeat 50% 50%;
+}
+
+.twitter:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.shadow:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+dialog {
+    width: 210px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    position: fixed;
+}
+
+.close {
+    border: none;
+    font-family: 'Roboto';
+    text-transform: lowercase;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
